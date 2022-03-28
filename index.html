@@ -18,18 +18,23 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <div class="overview">
           <h1>Toronto</h1>
           <ul>
             <li>Monday 2:30</li>
             <li>Clear</li>
+            </div>
           </ul>
           <div class="row">
             <div class="col-6">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-                alt="Clear"
-              />
-              12 ℃|℉
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Clear"
+                  class="float-left"
+                />
+                <strong>12</strong><span class="units">℃ | <a href="">℉</a></span> 
+              </div>
             </div>
             <div class="col-6">
               <ul>
