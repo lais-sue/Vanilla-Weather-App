@@ -13,6 +13,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 li {
   list-style: none;
   color: #70757a;
@@ -53,4 +56,13 @@ li:first-letter {
   position: relative;
   font-size: 15px;
   top: -24px;
+}
+
+.weather-temperature .active {
+  color: rgb(32, 33, 36);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
